@@ -30,6 +30,12 @@ PRODUCT_PACKAGES += \
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/htc/flounder/product_64_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+PRODUCT_NAME := bliss_flounder
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=flounder \
+    BUILD_FINGERPRINT=google/volantis/flounder:6.0.1/MOB30D/2704746:user/release-keys \
+    PRIVATE_BUILD_DESC="flounder-user 6.0.1 MOB30D 2704746 release-keys"
 
 PRODUCT_NAME := aosp_flounder_64_only
 PRODUCT_DEVICE := flounder
