@@ -195,6 +195,10 @@ PRODUCT_PACKAGES += \
     lights.flounder \
     sensors.flounder
 
+# Gello
+PRODUCT_PACKAGES += \
+    Gello
+
 # Filesystem management tools
 PRODUCT_PACKAGES += \
     fsck.f2fs mkfs.f2fs

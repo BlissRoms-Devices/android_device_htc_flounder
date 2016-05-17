@@ -7,6 +7,7 @@ TARGET_SCREEN_WIDTH := 1536
 # Camera
 PRODUCT_PACKAGES += \
     Snap
+flounder = ship gello
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/bliss/config/common_full_tablet_wifionly.mk)
