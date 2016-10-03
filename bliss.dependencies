@@ -1,14 +1,15 @@
 [
   {
-    "remote":,    "github",
-    "repository": "DirtyUnicorns/android_kernel_htc_flounder",
-     "target_path": "kernel/htc/flounder",
-     "revision":     "n"
+    "remote":       "github",
+    "repository":   "BlissRoms-Kernels/kernel_htc_flounder",
+    "target_path":  "kernel/huawei/angler",
+    "revision":       "n7.0"
   },
-   {
-   "remote": "github",
-   "repository": "BlissRoms-Vendor/proprietary_vendor_htc",
-   "target_path": "vendor/htc",
-   "branch": "n7.0"
+  {
+    "remote":      "github",
+    "repository":  "BlissRoms-Vendor/vendor_htc",
+    "target_path": "vendor/huawei",
+    "revision":      "n7.0"
   }
 ]
+
