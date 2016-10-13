@@ -125,7 +125,6 @@ EXTENDED_FONT_FOOTPRINT := true
 # let charger mode enter suspend
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
-MALLOC_IMPL := dlmalloc
 
 # Use the non-open-source parts, if they're present
 -include vendor/htc/flounder/BoardConfigVendor.mk
